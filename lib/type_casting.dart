@@ -26,4 +26,11 @@ void main() {
   String s3 = d1.toString();
   print("$s2 $s3");
 
+  // to check for a data is of the expected datatype
+  print(n1 is int);
+  print(d1 is double);
+  print(s2 is! String);
+  print(s3 is String);
+
+
 }
